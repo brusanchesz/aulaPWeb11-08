@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    background-color: pink;
+}
+
+div{
+    border: 3px solid black;
+}
+
+.nav-superior{
+    display: flex;
+}
+
+.botao{
+    width: 25%; /*LARGURA*/
+    text-align: center; /*ALINHAMENTO DE TEXTO*/
+
+}
+
+.principal{
+    height: 100%; /*ALTURA*/
+    background-color: blueviolet;
+}
+
+.secaoA{
+    height: 50%;
+    background-color: blue;
+    display: flex;
+
+}
+
+.secaoB{
+    height: 50%;
+    background-color: violet;
+}
+
+.card{
+    width:100%;
+    height:100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /*VERTICAL*/        /*ROW = LINHA*/
+    justify-content: center; /*HORIZONTAL*/
+    
+}
+
+.quadradinho{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+}
+
+/*inherit = herdada*/
+
+a{
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid black;
+}
